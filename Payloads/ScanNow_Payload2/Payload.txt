@@ -1,0 +1,41 @@
+REM Payload 2
+REM In Payload 2 versuche ich, den Befehl "sfc /scannow" in CMD mit erhöhten
+REM Rechten ausführen.
+
+REM Nach jeder Aktion führe ich sicherheitshalber einen Delay ein.
+
+REM Zu Beginn ATTACKMODE auswählen, wie in Payload1
+ATTACKMODE HID STORAGE
+DELAY 3000
+
+REM Jetzt die Windows Suche öffnen, da man mit dem Run Menü keine Admin
+REM Rechte bekommen kann
+GUI s
+DELAY 3000
+
+REM Jetzt CMD eintippen
+STRING cmd
+DELAY 3000
+
+REM Jetzt müssen wir zu "Als Administrator ausführen" navigieren
+RIGHTARROW
+DELAY 3000
+DOWNARROW
+DELAY 3000
+
+REM Jetzt müssen wir Enter drücken, um es mit Admin zu starten.
+ENTER
+DELAY 3000
+
+REM Jetzt sind wir im UAC (User Admin Control) Menü und müssen jetzt auf
+REM Ja navigieren
+RIGHTARROW
+DELAY 3000
+ENTER
+DELAY 3000
+
+REM Jetzt sind wir endlich da, jetzt schreiben wir "sfc /scannow"
+
+STRING sfc/ scannow
+
+REM Fertig!
