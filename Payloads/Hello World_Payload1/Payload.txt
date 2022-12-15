@@ -1,0 +1,14 @@
+REM Erster Payload Versuch 
+REM REM ist eine Möglichkeit, Kommentare im Code zu hinterlassen
+
+REM Zu Beginn den "Attackmode" einstellen, HID (Human Interface Device und STORAGE für den Speicher) Nun ist dieser BadUSB ein USB Stick und eine Tastatur.
+ATTACKMODE HID STORAGE
+
+REM Danach folgen die Befehle des Angreifers, ich will zu Beginn das RUN Menü von Windows öffnen
+GUI r
+
+REM Jetzt will ich in das RUN Fenster was schreiben, dafür nutze ich STRING
+STRING notepad
+
+REM Jetzt hat sich der Editor von Windows geöffnet. Ich will, das die ersten Worte "Hello, World!" sind
+STRING Hello, World!
