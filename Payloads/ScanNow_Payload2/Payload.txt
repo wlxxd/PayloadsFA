@@ -37,5 +37,7 @@ DELAY 3000
 REM Jetzt sind wir endlich da, jetzt schreiben wir "sfc /scannow"
 
 STRING sfc/ scannow
+DELAY 200
+ENTER
 
 REM Fertig!
