@@ -5,6 +5,7 @@ Selbsterstelle Payloads für die Facharbeit "BadUSB"
 ## Getestet
 
 Getestet mit HiLetGo BadUSB (https://www.amazon.de/HiLetgo-Mikrocontroller-ATMEGA32U4-Development-Keyboard/dp/B07W5K9YHP?tag=coa_de_g-21)
+
 Code von Duckyscript zu einem Arduino kompatiblen Script umgeschrieben (https://dukweeno.github.io/Duckuino/)
 
 -------------------------------------
