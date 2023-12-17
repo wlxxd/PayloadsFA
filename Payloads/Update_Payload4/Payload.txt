@@ -25,7 +25,7 @@ DELAY 300
 ENTER
 
 REM Jetzt starte ich den Fake Update Bildschirm
-STRING Start-Process iexplore -ArgumentList "-k http://fakeupdate.net/win10ue/"
+STRING Start-Process msedge -ArgumentList "-k http://fakeupdate.net/win10ue/"
 DELAY 50
 
 REM Wir müssen jetzt in den Vollbildschirm.
