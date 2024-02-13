@@ -17,4 +17,6 @@ Version 1.2.1 - Community Edition
 Betriebsystemname:	Microsoft Windows 11 Pro
 Version:            10.0.22621 Build 22621
 
+Die Skripte in dieser Rep ist auch für Version 10.0.22631 Build 22631 kompatibel.
+
 -------------------------------------
