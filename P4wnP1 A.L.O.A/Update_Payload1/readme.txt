@@ -1,0 +1,1 @@
+Dieses Skript ist ein Update für das eigentliche FakeUpdate Skript für den BadUSB. Leider konnten manche Tastenschläge wie / und () nicht von Duckuino bzw. Arudino erkannt werden. Dieses Skript funktioniert jedoch für den Raspberry Pi Zero W mit P4wnP1 A.L.O.A.
