@@ -1,4 +1,4 @@
-Leider hat die ÜBersetzung mit https://dukweeno.github.io/Duckuino/ nicht geklappt.
+Leider hat die Übersetzung mit https://dukweeno.github.io/Duckuino/ nicht geklappt.
 Leider resultieren andere Tastenschläge als erwartet, folgende sind betroffen:
 
 /
