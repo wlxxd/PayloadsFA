@@ -1,6 +1,7 @@
 # Payloads für die Facharbeit
 Selbsterstelle Payloads für die Facharbeit "BadUSB"
 
+Im jeweiligen Ordner findet man eine txt, indem das Skript in DuckyScript Sprache geschrieben wurde und das dazugehörige inject.bin für den Rubber Ducky. Im Unterordner findet man den Arduino Skript für den HiLetGo BadUSB (relevantere).
 
 ## Getestet
 
