@@ -1,0 +1,2 @@
+Dieses Skript zeigt bei jedem Start eine Nachricht an, indem es eine .bat Datei in den Startup-Ordner legt.
+Möglicherweise kann ein Fehler beim Eintippen von \ auftauchen, da es von js anders interpretiert wird.
