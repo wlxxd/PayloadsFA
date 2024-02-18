@@ -7,7 +7,7 @@ type("cmd") //CMD öffnen
 delay(500)
 press("ENTER")
 delay(500)
-type("cd C:\\Users\\%USERNAME%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup") //Wir begeben uns zum Ordner, wo alles zu Beginn gestartet wird.
+type("cd C:/Users/%USERNAME%/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup") //Wir begeben uns zum Ordner, wo alles zu Beginn gestartet wird.
 delay(500)
 press("ENTER")
 delay(500)
